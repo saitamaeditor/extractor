@@ -1,0 +1,4 @@
+node_modules
+dist
+# Ajustes con la contraseña de aplicación: nunca al repositorio
+config/
