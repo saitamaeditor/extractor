@@ -1,0 +1,26 @@
+{
+  "name": "player-extractor",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "publicar": "node scripts/publicar.mjs",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "hls.js": "1.5.17",
+    "lucide-react": "0.460.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.3.4",
+    "autoprefixer": "10.4.20",
+    "postcss": "8.4.49",
+    "tailwindcss": "3.4.17",
+    "vite": "5.4.11"
+  }
+}
